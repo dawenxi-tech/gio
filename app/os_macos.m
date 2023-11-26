@@ -9,6 +9,7 @@
 __attribute__ ((visibility ("hidden"))) CALayer *gio_layerFactory(void);
 
 @interface GioAppDelegate : NSObject<NSApplicationDelegate>
+@property (nonatomic, strong) NSStatusItem *statusItem;
 @end
 
 @interface GioWindowDelegate : NSObject<NSWindowDelegate>
